@@ -21,3 +21,5 @@ DENSITY, as definded as (0 < DENSITY < 1) sets the proportion of the screen that
 
 # examples
 ![mona_lisa](https://github.com/NathanVrieland/turtle-illusions/blob/main/Mona_lisa:50%2C70%2C0.7.png?raw=true)
+
+![mona_lisa](https://github.com/NathanVrieland/turtle-illusions/blob/main/stock_image:70%2C100%2C0.7.png?raw=true)
