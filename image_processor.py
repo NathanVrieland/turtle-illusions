@@ -35,12 +35,13 @@ class ImageProcessor:
                         average = 255
                     self.imageArray[i][j][k] = average
 
-    def changeBrightness(self, percent):
-        change = int((percent * 255) / 100)
-        for i in range(self.width):
-            for j in range(self.height):
-                for k in range(self.channels):
-                    self.imageArray[i][j][k] += change
+# this does not work in the slightest
+    # def changeBrightness(self, percent):
+    #     change = int((percent * 255) / 100)
+    #     for i in range(self.width):
+    #         for j in range(self.height):
+    #             for k in range(self.channels):
+    #                 self.imageArray[i][j][k] += change
 
 
     def setSize(self, width, height, channels = 3):
@@ -76,5 +77,5 @@ if __name__ == '__main__':
     filename = "faith1.jpg"
     image = Image.open(filename)
     processor = ImageProcessor(image)
-    processor.changeBrightness()
+    processor.greyScale()
     processor.saveImage("outImage.png")
