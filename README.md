@@ -20,3 +20,4 @@ RESOLUTION sets the number of samples the turtle will take per row
 DENSITY, as definded as (0 < DENSITY < 1) sets the proportion of the screen thats filled in when a given space is entirley black
 
 # examples
+![mona_lisa](https://github.com/NathanVrieland/turtle-illusions/blob/main/Mona_lisa:50%2C70%2C0.7.png?raw=true)
